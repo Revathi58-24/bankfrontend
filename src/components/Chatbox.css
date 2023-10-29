@@ -1,0 +1,66 @@
+/* Chatbox.css */
+.chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .chat-icon {
+    cursor: pointer;
+  }
+  
+  .chat-modal {
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .chat-header {
+    background-color: #8fbdeef0;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .chat-content {
+    padding: 10px;
+    height: 200px; /* Adjust as needed */
+    overflow-y: auto;
+    border-top: 1px solid #ccc;
+    margin-bottom:0px; 
+  }
+  .quick-links a {
+    display: block;
+    padding: 5px 0;
+    border-style: solid;
+    border-width: 0.5px; /* Reduce border width */
+    text-decoration: none;
+    color: #000; /* Default link color */
+    border: 0.5px solid #ccc; /* Add a border initially (transparent) */
+    transition: border 0.3s, color 0.3s; /* Add transition effects */
+  }
+  
+  .quick-links a:hover {
+ 
+    border-style: solid;
+    border-width: 0.5px; 
+    border: 0.5px solid #D67229; /* Change border color on hover */
+    color: white; /* Change text color on hover */
+    background-color: #D67229;
+  }
+  
+  
+  
