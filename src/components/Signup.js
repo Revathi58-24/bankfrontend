@@ -35,7 +35,7 @@ const Signup = () => {
     const isUserIDValid=validateUserID(formData.userID);
     if (isEmailValid && isPasswordValid && isUserIDValid) {
      // alert('Form submitted successfully!');
-      Axios.post('https://bankserve.onrender.com/api/signup',formData)
+      Axios.post('https://bankserver1.vercel.app/api/signup',formData)
       .then(response => {
         console.log(response.data.message);
         alert(response.data.message); // Display success message
