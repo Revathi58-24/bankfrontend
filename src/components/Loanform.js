@@ -123,7 +123,7 @@ const Form = () => {
    // alert("submitted")
     console.log('Form submitted:', formData);
   }
-  Axios.post('https://bankserve.onrender.com/api/loan1', formData)
+  Axios.post('https://bankserver1.vercel.app/api/loan1', formData)
         .then(response => {
           console.log(response.data.message);
           alert(response.data.message); // Display success message
