@@ -115,7 +115,7 @@ const Autoloan= () => {
     setFormSubmitted(true);
     console.log('Form submitted:', formData);
    // alert('Form submitted successfully!');
-    Axios.post('https://bankserve.onrender.com/api/loan4', formData)
+    Axios.post('https://bankserver1.vercel.app/api/loan4', formData)
     .then(response => {
       console.log(response.data.message);
       alert(response.data.message); // Display success message
