@@ -105,7 +105,7 @@ const Mortgage = () => {
     }
     console.log('Form submitted:', formData);
    // alert("submitted");
-    Axios.post('https://bankserver1.vercel.app/api/loan3', formData)
+    Axios.post('https://bn1.onrender.com/api/loan3', formData)
     .then(response => {
       console.log(response.data.message);
       alert(response.data.message); // Display success message
