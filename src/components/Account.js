@@ -140,7 +140,7 @@ const Form = () => {
         // Submit the form
        // alert('Account created Successfully');
         console.log(formData);
-        Axios.post('https://bankserver1.vercel.app/api/accopen', formData)
+        Axios.post('https://bn1.onrender.com/api/accopen', formData)
         .then(response => {
           console.log(response.data.message);
           alert(response.data.message); // Display success message
