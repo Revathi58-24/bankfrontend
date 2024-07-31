@@ -34,7 +34,7 @@ const SignIn = () => {
           navigate('/signup'); 
         });
     } else {
-      alert('Please enter a valid User ID in the format 5824XXXX');
+      alert('Please enter a valid User ID in the format 58XXXX');
     }
   };
   return (
